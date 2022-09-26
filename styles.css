@@ -1,1 +1,98 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-family: "Manrope";
+  background-color: #1f2632;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25vh;
+}
+
+.advice-container {
+  background-color: #323a49;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 30px;
+  border-radius: 15px;
+}
+
+.advice-container .advice-number {
+  font-size: 20px;
+  color: #52ffa8;
+}
+
+.advice-container .quote {
+  text-align: center;
+  font-size: 28px;
+  color: #cee3e9;
+}
+
+.advice-container .btn-wrapper {
+  height: 0px;
+}
+
+.advice-container .btn-wrapper .btn {
+  position: relative;
+  top: 15px;
+  right: 3px;
+  background-color: #52ffa8;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-image: url("images/icon-dice.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.advice-container .btn-wrapper .btn:hover {
+  -webkit-box-shadow: 0 0 7px 7px #52ffa8;
+          box-shadow: 0 0 7px 7px #52ffa8;
+}
+
+@media screen and (max-width: 600px) {
+  .advice-container {
+    width: 300px;
+    height: auto;
+  }
+  .line-break {
+    display: block;
+    height: 16px;
+    width: 100%;
+    background: url("images/pattern-divider-mobile.svg");
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .advice-container {
+    width: 450px;
+    height: auto;
+  }
+  .line-break {
+    display: block;
+    width: 100%;
+    height: 16px;
+    background: url("images/pattern-divider-desktop.svg");
+  }
+}
+/*# sourceMappingURL=styles.css.map */
